@@ -1,0 +1,18 @@
+{
+    "name": "simcu/speedycloud-storage-php",
+    "description": "Speedycloud Object Storage sdks for php",
+    "type": "libary",
+    "require": {
+        "php": "5.4"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "xRain",
+            "email": "xrain@simcu.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Speedycloud\\Storage\\": "src/"}
+    }
+}
